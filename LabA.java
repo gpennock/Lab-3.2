@@ -17,10 +17,12 @@ public class LabA
               if (choice.equals("A"))
               {
                  System.out.println("You grab the branch but it breaks off the tree. You continue getting pulled down the river until you manage to swim to the edge, but you lost all your rescources and need to head back home. ");
+                 System.out.println("Game Over");
               }
               else
               {
                   System.out.println("You reach the rock, but slip off when you try to grab it. You get sucked into some rapids behind the rock that you didn't see and get pulled under the water. You hit your head on a rock and everything goes dark.");
+                  System.out.println("Game Over");
               }
           }
           else
@@ -30,10 +32,12 @@ public class LabA
               if (choice.equals("A"))
               {
                  System.out.println("The fire keeps the animals away for the night, but you are still stuck on this side of the river. You keep looking for a way to cross, but can't find anything.");
+                 System.out.println("Game Over");
               }
               else
               {
                   System.out.println("The animals keep getting closer over the night until something jumps at you from the shadows. You don't even get a good look at what it is until you are already on the ground. You hit your head and everything goes dark. ");
+                  System.out.println("Game Over");
               }
           }
       }
@@ -48,11 +52,13 @@ public class LabA
               if (choice.equals("A"))
               {
                   System.out.println("You walk through the forst until it begins to get dark, but you realize that you have nothing to make a fire. You try to stay alert for the night, but you nod off in the cold. You don't wake up");
-              }
+                  System.out.println("Game Over");
+                }
               else
               {
                   System.out.println("You keep walking on the road but don't notice the police car as it comes up from behind you. They don't stop.");
-              }
+                  System.out.println("Game Over");
+                }
           }
           else
           {
@@ -61,10 +67,12 @@ public class LabA
               if (choice.equals("A"))
               {
                   System.out.println("The police get out of the car and begin chasing you. They have guns, and you didn't have much of a headstart. You collapse before you make it to the treeline.");
+                  System.out.println("Game Over");
               }
               else
               {
                   System.out.println("The police get out of the car and yell at you to get down. They handcuff you on the ground before throwing you in the back of their car. You don't know where you're going now.");
+                  System.out.println("Game Over");
               }
           }
       }
